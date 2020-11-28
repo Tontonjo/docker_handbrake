@@ -1,4 +1,4 @@
-docker run -d 
+docker run -d \
 --name=handbrake \
 -p 5800:5800 \
 -v /PATH/dockerdata/handbrake:/config:rw \
