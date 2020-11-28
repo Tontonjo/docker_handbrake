@@ -4,7 +4,4 @@ docker run -d \
 -v /PATH/dockerdata/handbrake:/config:rw \
 -v /PATH/share/:/storage:ro \
 -v /PATH/videos/handbrake/output:/output:rw \
--v /PATH/videos/handbrake/input:/input:rw \
--e AUTOMATED_CONVERSION_FORMAT=mkv \
--e AUTOMATED_CONVERSION_PRESET=Custom/tontonjo \
 jlesage/handbrake
