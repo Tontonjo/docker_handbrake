@@ -4,11 +4,10 @@
       "AlignAVStart": false,
       "AudioCopyMask": [
         "copy:aac",
-        "copy:truehd",
         "copy:flac",
         "copy:eac3"
       ],
-      "AudioEncoderFallback": "av_aac",
+      "AudioEncoderFallback": "opus",
       "AudioLanguageList": [
         "any"
       ],
